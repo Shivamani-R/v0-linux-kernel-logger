@@ -1,9 +1,9 @@
-import KernelActivityDashboard from "@/components/kernel-activity-dashboard"
+import KernelDeferredExecutionVisualizer from "@/components/kernel-deferred-execution-visualizer"
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
-      <KernelActivityDashboard />
+      <KernelDeferredExecutionVisualizer />
     </main>
   )
 }
